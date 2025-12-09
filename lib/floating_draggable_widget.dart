@@ -164,6 +164,7 @@ class _FloatingDraggableWidgetState extends State<FloatingDraggableWidget>
   void initState() {
     top = widget.dy ?? -1;
     left = widget.dx ?? -1;
+    isDragEnable = widget.isDraggable;
     super.initState();
   }
 
